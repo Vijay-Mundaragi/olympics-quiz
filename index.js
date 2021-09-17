@@ -85,7 +85,7 @@ var highScores = [{"name":"Vijay", "score": 5}, {"name":"Ram", "score": 3}, {"na
 
 console.log("Welcome to Olympics Quiz...!!!");
 var userName = readlineSync.question("Enter your Name : ");
-console.log("Welcome  "+userName);
+console.log("Welcome "+userName);
 var userScore = playGame(questions, userName);
 
 console.log("\n----------------\n");
